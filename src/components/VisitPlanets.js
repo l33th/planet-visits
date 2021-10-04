@@ -4,6 +4,7 @@ import data from "../data";
 
 const VisitPlanets = () => {
 	const [planets, setPlanets] = useState(data);
+    const refreshPlanets = () => setPlanets(data);
 	const clearAll = () => setPlanets([]);
 
 	return (
@@ -15,6 +16,9 @@ const VisitPlanets = () => {
 					<button className='btn' onClick={clearAll}>
 						clear all
 					</button>
+                    <button className='btn' onClick={refreshPlanets}>
+                        refresh planets
+                    </button>
 				</section>
 			</main>
 		</div>
