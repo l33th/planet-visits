@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import List from "./List";
+import data from "../data";
 
 const VisitPlanets = () => {
+	const [planets, setPlanets] = useState(data);
+
 	return (
 		<div>
 			<main>
 				<section className='container'>
-					<h3>0 planets today</h3>
-					<List />
+					<h3>{planets.length} planets to visit</h3>
+					<List planets={planets} />
 					<button
 						className='btn'
 						onClick={() => console.log("Clicked")}
