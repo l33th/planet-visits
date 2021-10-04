@@ -3,7 +3,11 @@ import React from 'react'
 const VisitPlanets = () => {
     return (
         <div>
-            <h1>Planets To Visit</h1>
+            <main>
+                <section className='container'>
+                    <h3>0 planets today</h3>
+                </section>
+            </main>
         </div>
     )
 }
