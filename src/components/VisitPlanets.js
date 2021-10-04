@@ -11,10 +11,7 @@ const VisitPlanets = () => {
 				<section className='container'>
 					<h3>{planets.length} planets to visit</h3>
 					<List planets={planets} />
-					<button
-						className='btn'
-						onClick={() => console.log("Clicked")}
-					>
+					<button className='btn' onClick={() => setPlanets([])}>
 						clear all
 					</button>
 				</section>
