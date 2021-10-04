@@ -3,8 +3,8 @@ import List from "./List";
 import data from "../data";
 
 const VisitPlanets = () => {
-    const [planets, setPlanets] = useState(data);
-    const clearAll = () => setPlanets([]);
+	const [planets, setPlanets] = useState(data);
+	const clearAll = () => setPlanets([]);
 
 	return (
 		<div>

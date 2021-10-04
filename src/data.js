@@ -1,4 +1,4 @@
-export default [
+const data = [
 	{
 		id: 1,
 		name: "Kepler-22 b",
@@ -40,3 +40,5 @@ export default [
 		image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/91a0190d-4805-4e61-8334-867cb5bb944e/d6ikmke-eb7cc127-ab83-46bc-9ac3-ae2f84bfa439.png/v1/fill/w_1280,h_720,strp/planet_gj_504_b_by_shanedk_d6ikmke-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOTFhMDE5MGQtNDgwNS00ZTYxLTgzMzQtODY3Y2I1YmI5NDRlXC9kNmlrbWtlLWViN2NjMTI3LWFiODMtNDZiYy05YWMzLWFlMmY4NGJmYTQzOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.d-fmbcZzNhIvpGdziAMPOZZ4wWQhjO0uru9QTcb87_s",
 	},
 ];
+
+export default data;
