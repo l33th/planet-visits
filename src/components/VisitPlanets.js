@@ -8,7 +8,12 @@ const VisitPlanets = () => {
 				<section className='container'>
 					<h3>0 planets today</h3>
 					<List />
-					<button className='btn'>clear</button>
+					<button
+						className='btn'
+						onClick={() => console.log("Clicked")}
+					>
+						clear all
+					</button>
 				</section>
 			</main>
 		</div>
